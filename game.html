@@ -4,10 +4,10 @@
     <title>Game</title>
 </head>
 <body>
-<p>Hi {{ person }}. Yay! Let's play.</p>
+<p>Hi {{ person }}! Yay! Let's play.</p>
 
     Please enter a:
-    <form>
+    <form action="/madlib">
         <p>Person:
             <input type="text" name="person-answer"/>
         </p>
@@ -20,7 +20,9 @@
         <p>Adjective:
             <input type="text" name="adjective-answer"/>
         </p>
+        <input type="submit">
     </form>
+
     
 </body>
 </html>
